@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class LKJohanna {
     public static void main(String[] args) throws IOException {
-        double a[][], b[], x[], y[][];
+        double a[][], b[], x[];
 
         String text;
         do {
@@ -17,7 +17,6 @@ public class LKJohanna {
             a = new double[anzahl + 1][anzahl + 1];
             b = new double[anzahl + 1];
             x = new double[anzahl + 1];
-            y = new double[anzahl + 1][anzahl + 1];
 
             eingabe(a, b);
             ausgabe(a, b);
