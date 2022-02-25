@@ -203,14 +203,10 @@ public class LKJohanna {
                     }
                 }
 
-
-
                 if(m < b.length) {
                     m++;
                     i++;
                 }
-
-
             }
         }
         if(text.equalsIgnoreCase("ja")){
